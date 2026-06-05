@@ -81,6 +81,20 @@ h3{font-size:1.35rem}
 }
 .hero-card img{margin:auto;max-width:300px}
 .hero-card p{font-size:1.05rem}
+.hero-image{
+  border-radius:var(--radius);
+  overflow:hidden;
+  box-shadow:var(--shadow);
+  min-height:320px;
+  background:var(--black);
+}
+.hero-image img{
+  width:100%;
+  height:100%;
+  min-height:320px;
+  object-fit:cover;
+  display:block;
+}
 .notice-bar{background:var(--black);color:#fff;padding:14px 0;font-size:.96rem}
 .section{padding:72px 0}
 .section.soft{background:#fff}
