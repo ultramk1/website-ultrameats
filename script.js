@@ -58,9 +58,15 @@ document.getElementById("orderForm").addEventListener("submit", function(e) {
   }
   const squareLink = SQUARE_LINKS[bundle];
   if (!squareLink || squareLink.includes("REPLACE")) {
-    message.classList.add("success");
-    message.textContent = "Order details confirmed. Redirecting you to the secure Square payment page.";
+    message.classList.add("error");
+    message.textContent = "Secure Square payment link is not available for this bundle yet. Please contact Ultra Meats to complete payment.";
     return;
   }
-  window.location.href = squareLink;
+
+  message.classList.add("success");
+  message.innerHTML = `Order details received. You are being redirected to Square's secure checkout page. <a href="${squareLink}" target="_blank" rel="noopener">Click here to open secure payment</a>.`;
+
+  setTimeout(() => {
+    window.location.href = squareLink;
+  }, 900);
 });
