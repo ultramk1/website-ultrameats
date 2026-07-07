@@ -1,8 +1,8 @@
 // Ultra Meats website script
-// Replace these placeholders with live Square Online product links or checkout links.
+// Live Square checkout links for Ultra Meats.
 const SQUARE_LINKS = {
-  "Steak Bundle": "https://square.link/u/REPLACE-STEAK-BUNDLE-LINK",
-  "Boneless Chicken Bundle": "https://square.link/u/REPLACE-CHICKEN-BUNDLE-LINK"
+  "Steak Bundle": "https://square.link/u/EmVOfpoj",
+  "Boneless Chicken Bundle": "https://square.link/u/hpCmBu6w"
 };
 const cityStateMap = {
   "Chattanooga": "TN",
@@ -59,7 +59,7 @@ document.getElementById("orderForm").addEventListener("submit", function(e) {
   const squareLink = SQUARE_LINKS[bundle];
   if (!squareLink || squareLink.includes("REPLACE")) {
     message.classList.add("success");
-    message.textContent = "Order details confirmed. Add the live Square checkout link in script.js to send customers to payment.";
+    message.textContent = "Order details confirmed. Redirecting you to the secure Square payment page.";
     return;
   }
   window.location.href = squareLink;
