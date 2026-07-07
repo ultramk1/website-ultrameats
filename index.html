@@ -4,64 +4,59 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ultra Meats | Premium Frozen Meats</title>
-  <meta name="description" content="Ultra Meats offers premium frozen, vacuum-sealed meat bundles with local delivery in Tennessee and North Georgia." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="#home" aria-label="Ultra Meats Home">
-        <img src="assets/ultra-meats-logo.png" alt="Ultra Meats logo" />
+      <a class="brand" href="#top" aria-label="Ultra Meats Home">
+        <img src="ultra-meats-logo.png" alt="Ultra Meats logo" />
         <span>Ultra Meats</span>
       </a>
-      <button class="mobile-menu" aria-label="Open menu" aria-expanded="false">☰</button>
+      <button class="mobile-menu" aria-label="Open navigation" aria-expanded="false">☰</button>
       <nav class="nav">
         <a href="#shop">Shop</a>
         <a href="#how">How It Works</a>
         <a href="#delivery">Delivery</a>
         <a href="#faq">FAQ</a>
-        <a href="#order" class="nav-cta">Order Now</a>
+        <a class="nav-cta" href="#order">Order Now</a>
       </nav>
     </div>
   </header>
 
-  <main id="home">
+  <main id="top">
     <section class="hero">
       <div class="container hero-grid">
-        <div class="hero-copy">
+        <div>
           <p class="eyebrow">Premium Frozen Meats</p>
           <h1>Vacuum-sealed meat bundles, freezer-ready for your family.</h1>
-          <p class="hero-text">
-            Ultra Meats offers quality frozen meat bundles packaged for convenience, long-lasting freezer storage, and easy meal planning.
-          </p>
+          <p class="hero-text">Ultra Meats offers quality frozen meat bundles packaged for convenience, long-lasting freezer storage, and easy meal planning.</p>
           <div class="hero-actions">
             <a class="btn primary" href="#shop">Shop Bundles</a>
             <a class="btn secondary" href="#order">Start Order</a>
           </div>
-          <div class="trust-row" aria-label="Highlights">
+          <div class="trust-row">
             <span>Vacuum Sealed</span>
             <span>Frozen Fresh</span>
             <span>Local Delivery</span>
           </div>
         </div>
         <div class="hero-image">
-          <img src="assets/ultra-meats-header.png" alt="Assorted premium cuts of beef and chicken, including steaks, burger patties, and chicken breasts, styled as a header image for Ultra Meats" />
+          <img src="ultra-meats-header.png" alt="Assorted premium cuts of beef and chicken, including steaks, burger patties, and chicken breasts, styled as a header image for Ultra Meats" />
         </div>
       </div>
     </section>
 
-    <section class="notice-bar">
-      <div class="container">
-        <strong>Sales tax notice:</strong> Sales tax should be calculated at checkout based on the customer’s delivery address and applicable Georgia or Tennessee state and local food tax rates.
-      </div>
-    </section>
+    <div class="notice-bar">
+      <div class="container">Sales tax notice: Sales tax should be calculated at checkout based on the customer’s delivery address and applicable Georgia or Tennessee state and local food tax rates.</div>
+    </div>
 
     <section id="shop" class="section">
       <div class="container">
         <div class="section-heading">
           <p class="eyebrow">Shop Ultra Meats</p>
           <h2>Choose Your Bundle</h2>
-          <p>All bundles are frozen, vacuum sealed, and ready to stock your freezer. Tips can be made optional at checkout.</p>
+          <p>All bundles are frozen, vacuum sealed, and ready to stock your freezer.</p>
         </div>
 
         <div class="product-grid">
@@ -70,16 +65,11 @@
               <p class="product-kicker">36-Piece Bundle</p>
               <h3>Steak Bundle</h3>
               <p class="price">$168</p>
-              <p class="muted">Optional tip available at checkout.</p>
             </div>
-            <p>
-              A premium frozen beef bundle with T-bones, NY strips, ribeye, beef filet, boneless beef strips, and burger patties.
-            </p>
+            <p>A premium frozen beef bundle with T-bones, NY strips, ribeye, beef filet, boneless beef strips, and burger patties.</p>
             <div class="table-wrap">
               <table>
-                <thead>
-                  <tr><th>Item</th><th>Qty</th><th>Weight</th></tr>
-                </thead>
+                <thead><tr><th>Item</th><th>Qty</th><th>Weight</th></tr></thead>
                 <tbody>
                   <tr><td>T-Bone Steaks</td><td>2</td><td>32 oz / 2 lb</td></tr>
                   <tr><td>NY Strip Steaks</td><td>4</td><td>32 oz / 2 lb</td></tr>
@@ -90,8 +80,7 @@
                 </tbody>
               </table>
             </div>
-            <p class="bundle-note">Total listed weight: about 215 oz / 13.43 lb.</p>
-            <a class="btn primary full" href="#order" data-bundle="Steak Bundle">Order Steak Bundle</a>
+            <a class="btn primary full" data-bundle="Steak Bundle" href="#order">Order Steak Bundle</a>
           </article>
 
           <article class="product-card">
@@ -99,16 +88,11 @@
               <p class="product-kicker">Chicken Bundle</p>
               <h3>Boneless Chicken Bundle</h3>
               <p class="price">$148</p>
-              <p class="muted">Optional tip available at checkout.</p>
             </div>
-            <p>
-              A freezer-ready chicken bundle with multiple seasoned boneless chicken selections plus uncooked chicken tenderloin tenders.
-            </p>
+            <p>A freezer-ready chicken bundle with multiple seasoned boneless chicken selections plus uncooked chicken tenderloin tenders.</p>
             <div class="table-wrap">
               <table>
-                <thead>
-                  <tr><th>Item</th><th>Qty</th><th>Weight</th></tr>
-                </thead>
+                <thead><tr><th>Item</th><th>Qty</th><th>Weight</th></tr></thead>
                 <tbody>
                   <tr><td>Italian Bruschetta Boneless Chicken</td><td>1 pack</td><td>40 oz / 2.5 lb</td></tr>
                   <tr><td>Lemon Pepper Boneless Chicken</td><td>1 pack</td><td>40 oz / 2.5 lb</td></tr>
@@ -120,8 +104,7 @@
                 </tbody>
               </table>
             </div>
-            <p class="bundle-note">Total listed weight before tenders: 240 oz / 15 lb.</p>
-            <a class="btn primary full" href="#order" data-bundle="Boneless Chicken Bundle">Order Chicken Bundle</a>
+            <a class="btn primary full" data-bundle="Boneless Chicken Bundle" href="#order">Order Chicken Bundle</a>
           </article>
         </div>
       </div>
@@ -147,13 +130,9 @@
         <div>
           <p class="eyebrow">Local Delivery</p>
           <h2>Delivery Service Area</h2>
-          <p>
-            Ultra Meats currently delivers frozen, vacuum-sealed meat bundles to select areas of Tennessee and North Georgia.
-          </p>
-          <p class="delivery-list">
-            Chattanooga, Hixson, Harrison, Dalton, Lafayette, Rossville, Chickamauga, Ringgold, and Rock Spring.
-          </p>
-          <p class="muted">Don’t see your area listed? Contact us to see if delivery is available.</p>
+          <p>Ultra Meats currently delivers frozen, vacuum-sealed meat bundles to select areas of Tennessee and North Georgia.</p>
+          <p class="delivery-list">Chattanooga, Hixson, Harrison, Dalton, Lafayette, Rossville, Chickamauga, Ringgold, and Rock Spring.</p>
+          <p>Don’t see your area listed? Contact us to see if delivery is available.</p>
         </div>
         <div class="storage-box">
           <h3>Freezer Storage</h3>
@@ -169,114 +148,61 @@
           <h2>Start Your Order</h2>
           <p>Use this form to collect customer details before sending them to the correct Square checkout or invoice.</p>
         </div>
-
         <form id="orderForm" class="order-form">
           <div class="form-grid">
-            <label>Full Name
-              <input type="text" name="name" required placeholder="Customer name" />
-            </label>
-            <label>Phone
-              <input type="tel" name="phone" required placeholder="Phone number" />
-            </label>
-            <label>Email
-              <input type="email" name="email" required placeholder="Email address" />
-            </label>
+            <label>Full Name<input name="name" type="text" required></label>
+            <label>Phone<input name="phone" type="tel" required></label>
+            <label>Email<input name="email" type="email" required></label>
             <label>Bundle
-              <select name="bundle" id="bundleSelect" required>
+              <select id="bundleSelect" name="bundle" required>
                 <option value="">Select a bundle</option>
                 <option value="Steak Bundle">$168 — Steak Bundle</option>
                 <option value="Boneless Chicken Bundle">$148 — Boneless Chicken Bundle</option>
               </select>
             </label>
-            <label>Delivery Address
-              <input type="text" name="address" required placeholder="Street address" />
-            </label>
+            <label>Delivery Address<input name="address" type="text" required></label>
             <label>City
-              <select name="city" id="citySelect" required>
+              <select id="citySelect" name="city" required>
                 <option value="">Select city</option>
-                <option>Chattanooga</option>
-                <option>Hixson</option>
-                <option>Harrison</option>
-                <option>Dalton</option>
-                <option>Lafayette</option>
-                <option>Rossville</option>
-                <option>Chickamauga</option>
-                <option>Ringgold</option>
-                <option>Rock Spring</option>
+                <option>Chattanooga</option><option>Hixson</option><option>Harrison</option><option>Dalton</option><option>Lafayette</option><option>Rossville</option><option>Chickamauga</option><option>Ringgold</option><option>Rock Spring</option>
               </select>
             </label>
             <label>State
-              <select name="state" id="stateSelect" required>
+              <select id="stateSelect" name="state" required>
                 <option value="">Select state</option>
                 <option value="TN">Tennessee</option>
                 <option value="GA">Georgia</option>
               </select>
             </label>
-            <label>ZIP Code
-              <input type="text" name="zip" required placeholder="ZIP code" />
-            </label>
+            <label>ZIP Code<input name="zip" type="text" required></label>
           </div>
-
           <div class="tax-box">
             <h3>Sales Tax Notice</h3>
-            <p>
-              Sales tax is calculated at checkout based on the customer’s delivery address and applicable Georgia or Tennessee state and local food tax rates.
-            </p>
+            <p>Sales tax is calculated at checkout based on the customer’s delivery address and applicable Georgia or Tennessee state and local food tax rates.</p>
+            <p class="small muted">Delivery tip may be added at checkout if desired.</p>
           </div>
-
           <div class="disclaimer-box">
             <h3>Final Sale Disclaimer</h3>
-            <p>
-              I understand that all sales are final on perishable consumable products, including frozen vacuum-sealed meat. Due to food safety standards, Ultra Meats cannot accept returns, exchanges, or refunds once an order has been purchased.
-            </p>
-            <label class="checkbox-line">
-              <input type="checkbox" id="finalSale" required />
-              <span>I have read and agree to the Final Sale Disclaimer.</span>
-            </label>
+            <p>I understand that all sales are final on perishable consumable products, including frozen vacuum-sealed meat. Due to food safety standards, Ultra Meats cannot accept returns, exchanges, or refunds once an order has been purchased.</p>
+            <label class="checkbox-line"><input id="finalSale" type="checkbox" required><span>I have read and agree to the Final Sale Disclaimer.</span></label>
           </div>
-
-          <p id="formMessage" class="form-message" role="status"></p>
-
-          <button type="submit" class="btn primary checkout-btn">Continue to Checkout</button>
-
-          <p class="muted small">
-            Replace the placeholder Square links in <strong>script.js</strong> with the client’s live Square checkout links or Square Online product links.
-          </p>
+          <button class="btn primary checkout-btn" type="submit">Continue to Checkout</button>
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+          <p class="small muted">Replace the placeholder Square links in script.js with the client’s live Square checkout links or Square Online product links.</p>
         </form>
       </div>
     </section>
 
     <section id="faq" class="section">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Questions</p>
-          <h2>FAQ</h2>
-        </div>
+        <div class="section-heading"><p class="eyebrow">Questions</p><h2>FAQ</h2></div>
         <div class="faq-grid">
-          <details>
-            <summary>Is the meat frozen?</summary>
-            <p>Yes. Ultra Meats sells frozen, vacuum-sealed meat bundles.</p>
-          </details>
-          <details>
-            <summary>How long does the meat last?</summary>
-            <p>Vacuum sealed and freezer-ready — may maintain quality up to 3 years when properly frozen.</p>
-          </details>
-          <details>
-            <summary>Are sales final?</summary>
-            <p>Yes. All sales are final on perishable consumable products, including frozen vacuum-sealed meat.</p>
-          </details>
-          <details>
-            <summary>Can SNAP/EBT be accepted?</summary>
-            <p>SNAP/EBT acceptance requires USDA/FNS retailer approval and an EBT-capable payment processor. Delivery fees, tips, and other non-food charges may need separate payment.</p>
-          </details>
-          <details>
-            <summary>How is sales tax handled?</summary>
-            <p>Sales tax should be calculated at checkout based on the delivery address and applicable Georgia or Tennessee food tax rates.</p>
-          </details>
-          <details>
-            <summary>Do you deliver to my area?</summary>
-            <p>Current delivery areas include Chattanooga, Hixson, Harrison, Dalton, Lafayette, Rossville, Chickamauga, Ringgold, and Rock Spring.</p>
-          </details>
+          <details><summary>Is the meat frozen?</summary><p>Yes. Ultra Meats sells frozen, vacuum-sealed meat bundles.</p></details>
+          <details><summary>How long does the meat last?</summary><p>Vacuum sealed and freezer-ready — may maintain quality up to 3 years when properly frozen.</p></details>
+          <details><summary>Are sales final?</summary><p>Yes. All sales are final on perishable consumable products, including frozen vacuum-sealed meat.</p></details>
+          <details><summary>Can SNAP/EBT be accepted?</summary><p>SNAP/EBT acceptance requires USDA/FNS retailer approval and an EBT-capable payment processor. Delivery fees, tips, and other non-food charges may need separate payment.</p></details>
+          <details><summary>How is sales tax handled?</summary><p>Sales tax should be calculated at checkout based on the delivery address and applicable Georgia or Tennessee food tax rates.</p></details>
+          <details><summary>Do you deliver to my area?</summary><p>Current delivery areas include Chattanooga, Hixson, Harrison, Dalton, Lafayette, Rossville, Chickamauga, Ringgold, and Rock Spring.</p></details>
         </div>
       </div>
     </section>
@@ -284,18 +210,15 @@
 
   <footer class="site-footer">
     <div class="container footer-grid">
+      <img src="ultra-meats-logo-full.png" alt="Ultra Meats logo" />
       <div>
-        <img src="assets/ultra-meats-logo.png" alt="Ultra Meats logo" />
         <p>Premium frozen meats, vacuum sealed for quality.</p>
-      </div>
-      <div>
         <h3>Ultra Meats</h3>
         <p>Local delivery in Tennessee and North Georgia.</p>
-        <p class="muted">© <span id="year"></span> Ultra Meats. All rights reserved.</p>
+        <p>© <span id="year"></span> Ultra Meats. All rights reserved.</p>
       </div>
     </div>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
